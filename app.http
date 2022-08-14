@@ -1,0 +1,11 @@
+###
+DELETE http://127.0.0.1:3333/deleteStudent
+Content-Type: application/json
+
+{
+    "name" : "Aman"
+}
+
+###
+GET http://127.0.0.1:3333/index
+Content-Type: application/json
